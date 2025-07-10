@@ -54,6 +54,41 @@ require(get_parent_theme_file_path('inc/tb-custom-tutor-function.php'));
 // Custom OLC functions
 require(get_parent_theme_file_path('inc/tb-custom-functions.php'));
 
+/* add_action( 'init', function(){
+
+    $args = array(
+        'post_type' => tutor()->course_post_type,
+        'posts_per_page' => -1,
+    );
+    
+    $postsxx = new WP_Query($args);
+    
+    while ($postsxx->have_posts()) {
+        $postsxx->the_post();
+
+        $postxx = $postsxx->post;
+
+        $du = tutor_utils()->get_course_duration($postxx->ID, true);
+
+        if(get_post_meta($postxx->ID, '_course_duration_hours') === false){
+            add_post_meta( $postxx->ID, '_course_duration_hours', $du['durationHours']);
+        }
+
+        if(get_post_meta($postxx->ID, '_course_duration_minutes') === false){
+            add_post_meta( $postxx->ID, '_course_duration_minutes', $du['durationMinutes']);
+        }
+
+        if(get_post_meta($postxx->ID, '_course_duration_seconds') === false){
+            add_post_meta( $postxx->ID, '_course_duration_seconds', $du['durationSeconds']);
+        }
+
+    }
+    
+    wp_reset_postdata();
+
+} ); */
+
+
 add_action('wp_enqueue_scripts','tb_enqueue_scripts');
 function tb_enqueue_scripts(){
     // enqeueu styles

@@ -40,6 +40,7 @@ get_header();
 						?>
 						</h4>
 					</div><!-- .search-result-count -->
+					<div class="search-result-content">
 					<?php
 					if ( have_posts() ) :
 						/* Start the Loop */ 
@@ -50,7 +51,10 @@ get_header();
 						endwhile;
 					else:
 						get_template_part( 'template-parts/content/content', 'none' );
-					endif;
+					endif;?>
+					
+					</div>	
+					<?php
 						// pagination for posts
 						get_template_part('template-parts/pagination');
 					?>
