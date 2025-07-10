@@ -10,4 +10,3 @@
 // get_template_part( 'template-parts/footer/'.$footer_style.'/footer' );
 get_template_part( 'template-parts/site-end');
 ?>
-

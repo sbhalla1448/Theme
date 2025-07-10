@@ -14087,7 +14087,7 @@ h3.tutor-course-details-widget-title {
   color: #003300!important;
   /* Heading/Large/Bold */
   font-family: Arial;
-  font-size: 1.5em;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 132%; /* 31.68px */
@@ -14096,14 +14096,12 @@ ul.tutor-course-details-widget-list li {
   color: var(--secondary-60, #7C8A8F);
   color: black;
   font-family: Arial;
-  font-size: 0.875em;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
 }
-.tutor-single-course-sidebar-more ul.tutor-course-details-widget-list li{
-  font-size: inherit;
-}
+
 .tutor-course-details-widget {
   padding: 0px!important;
   margin-top: 15px!important;
@@ -14153,7 +14151,7 @@ ul.tutor-course-details-widget-list li {
 .course-title-info .course-info-date {
   color: var(--secondary-60, #7C8A8F);
   font-family: Arial;
-  font-size: 0.75em;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 137%;
@@ -14163,7 +14161,7 @@ ul.tutor-course-details-widget-list li {
 .course-title-info .course-title {
   color: var(--secondary-100, #243C45);
   font-family: Arial;
-  font-size: 0.875em;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
@@ -14172,7 +14170,7 @@ ul.tutor-course-details-widget-list li {
 .course-meta-info {
   color: var(--secondary-60, #7C8A8F);
   font-family: Arial;
-  font-size: 0.875em;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
@@ -14199,7 +14197,7 @@ ul.tutor-course-details-widget-list li {
 span.course-price {
   color: var(--secondary-100, #243C45);
   font-family: Arial;
-  font-size: 0.875em;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
@@ -14235,7 +14233,7 @@ span.course-price {
 .course-prospectus-meta p {
   color: var(--secondary-60, #7C8A8F);
   font-family: Arial;
-  font-size: 0.875em;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
@@ -14245,7 +14243,7 @@ span.course-price {
 .course-prospectus-box a {
   color: var(--primary-100, #008080);
   font-family: Arial;
-  font-size: 0.875em;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
@@ -22052,24 +22050,24 @@ img.mfp-img {
   opacity: 1;
 }
 
-.mfp-iframe-holder .mfp-close, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-    top: -15px;
-    right: -15px;
-    font-size: 40px;
-    font-weight: 400;
-    transition: 0.4s;
-    opacity: 1;
-    width: 35px !important;
-    height: 35px !important;
-    background: transparent;
-    text-align: center;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    color: var(--color-white);
-    border: 3px solid var(--color-white);
+.mfp-iframe-holder .mfp-close,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  top: -60px;
+  right: -50px;
+  font-size: 30px;
+  font-weight: 400;
+  transition: 0.4s;
+  opacity: 1;
+  width: 50px;
+  height: 50px;
+  background: var(--heading-opacity);
+  text-align: center;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  color: var(--color-white);
 }
 
 .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
@@ -28674,7 +28672,7 @@ span.rbt-btn-link i{
 .rbt-btn {
   color: var(--white, #FFF);
   font-family: Arial!important;
-  font-size: 1.0625em!important;
+  font-size: 17px!important;
   font-style: normal;
   font-weight: 700;
   line-height: 138%;
@@ -28945,7 +28943,7 @@ span.rbt-btn-link i{
   color: var(--secondary-100, #243C45);
   /* Heading/Large/Bold */
   font-family: Arial;
-  font-size: 1.5em;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 132%; /* 31.68px */
@@ -28966,27 +28964,18 @@ h1.olc-breadcrumb-title{
 	font-weight: 700;
 	line-height: 124%; /* 49.6px */
 }
-.olc-breadcrumb {
-    background-color:var(--color-primary);
-    background-image: url('https://openlearningcollege.ac/wp-content/uploads/2023/09/Group-1000002477-1.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .olc-breadcrumb-desc{
-	color: var(--White, #FFF);
+	color: var(--secondary-60, #7C8A8F);
 	text-align: center;
 	font-family: Arial;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 138%; /* 22.08px */
-  width: 46%;
-  margin: 0 auto;
-  padding-top: 15px;
 }
 .course-found-title{
 	color: var(--primary-100, #008080);
+	font-family: Arial;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 700;
@@ -28994,1004 +28983,25 @@ h1.olc-breadcrumb-title{
 }
 .olc-breadcrumb-link{
 	color: var(--primary-100, #008080);
+	font-family: Arial;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 138%; /* 22.08px */
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-  transition: color 0.3s;
 }
 .olc-breadcrumb-wrap{
 	padding-bottom:30px;
 	padding-left:10px;
 }
 .olc-breadcrumb-current{
-	font-weight: 400;
+	color: var(--secondary-60, #7C8A8F);
+	font-family: Arial;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 138%; /* 22.08px */
 }
-span.olc-breadcrumb-current{
-  color: var(--secondary-60, #7C8A8F);
-  padding: 0 8px;
-}
+
 .refresh-btn {
     color: #fff !important;
-}
-.olc-breadcrumb-title span{
-  color: var(--color-pink);
-}
-
-/* ---------additonal css */
-.rbt-btn.rounded-player-2 {
-    padding: 20px!important;
-}
-
-.rbt-breadcrumb-style-3 .title {
-    font-size: 32px!important;
-}
-*{
-	margin:0;
-	padding:0;
-}
-.rbt-card.variation-01.rbt-hover .rbt-card-body .rbt-card-title a{
-	white-space: normal;
-}
-.rbt-card.variation-01.rbt-hover{
-	height:auto;
-}
-
-.student-page-item .elementor-widget-wrap{
-	    flex-flow: inherit!important;
-}
-.student-page-join-wrap .elementor-widget-wrap{
-	    display: flex;
-    flex-flow: wrap !important;
-}
-.student-page-login-wrap-inner .col-lg-6.m-auto {
-    width: 100%;
-}
-.student-page-login-wrap-inner .rbt-section-gap {
-    padding: 60px 0 0px !important;
-	    background: transparent !important;
-}
-
-input[type=text], input[type=password], input[type=email], input[type=number], input[type=tel], textarea{
-	padding: 0 15px !important;
-}
-input[type=checkbox] ~ label::before{
-	top: 4px!important;
-}
-.olc-checkout input[type=checkbox] ~ label::before{
-  width: 17px;
-    height: 17px;
-}
-.elementor-sticky--active{
-	z-index:9999!important;
-}
-.elementor-16136 .elementor-element.elementor-element-cf3c5e6 .elementor-heading-title{
-	font-size:18.72px;
-}
-.elementor-element-e7ed0cd p{
-	margin-bottom:0!important;
-	font-size: 16px;
-}
-
-
-
-
-/* Login Page Style */
-
-
-.page-id-6 .col-lg-6.m-auto,.page-id-8 .col-lg-8.m-auto{width:80%}
-.rbt-contact-form.contact-form-style-1{background:transparent; padding:0 !important;    box-shadow:none;  border-radius:0}
-#tutor-login-form{width:50%; padding:30px}
-.contact-form-style-1 h3{display:none!important; visibility:hidden; backface-visibility:hidden}
-
-.form-wrapper{display:flex; justify-content:space-between;}
-.form-heading{width:100%; display:block; padding-bottom:32px}
-.form-heading h2{color: #243C45;
-font-family: Arial;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;}
-.form-heading h2 span{display:inline-block;color:  #008080;
-font-family: Arial;	}
-.form-heading p{color: #7C8A8F;
-font-family: Arial;
-font-size: 16px;
-font-style: normal;
-	font-weight: 400; margin-top:12px;}
-.form-holder .form-group input[type='text'], .form-holder .form-group input[type='password'], .form-holder .form-group input[type='email'], .form-holder .form-group input[type='number'], .form-holder .form-group input[type='tel'], .form-holder .form-group textarea,.form-holder .form-group .form-control,
-.page-id-7 .tutor-form-group input[type='text'],.page-id-7 .tutor-form-group input[type='password'],.page-id-7 .tutor-form-group input[type='email'],.page-id-7 .tutor-form-group input[type='number'],.page-id-7 .tutor-form-group input[type='tel'],.page-id-7 .tutor-form-group textarea,.page-id-7 .tutor-form-group .form-control,.page-id-8 .tutor-form-group input[type='text'],.page-id-8 .tutor-form-group input[type='password'],.page-id-8 .tutor-form-group input[type='email'],.page-id-8 .tutor-form-group input[type='number'],.page-id-8 .tutor-form-group input[type='tel'],.page-id-8 .tutor-form-group textarea,.page-id-8 .tutor-form-group .form-control,.page-id-6 .tutor-form-group input[type='text'],.page-id-6 .tutor-reset-password-form .tutor-form-group input[type='password']{border-radius: 48px;border: 1px solid #EAECED;color: #7C8A8F;font-family: Arial;
-font-size: 16px;font-style: normal;font-weight: 400;
-	line-height: 22px; height:48px; padding:0 24px; box-shadow:none;}
-.form-holder .form-control
-,.page-id-7 .tutor-form-group .form-control,.page-id-8 .tutor-form-group .form-control,.form-holder .form-group .form-control{font-weight:bold;z-index:2}
-.form-holder .form-group .form-control:focus,.form-holder .form-group.ocused .form-control:focus{box-shadow:none}
-.form-holder .form-group label{padding:0 24px;}
-.form-holder .form-group{margin-bottom:16px;}
-.form-holder .form-group.focused label{top:-6px;}
-.forgot-password-wrap{float:right;margin-bottom:32px}
-.forgot-password-wrap a{color: #F37267;font-family: Arial;
-font-size: 16px;font-style: normal;font-weight: 400;}
-.tutor-text-info{display:flex; justify-content:center; align-items:center;color: #7C8A8F;
-font-family: Arial;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;}
-.tutor-text-info .tutor-btn-link{margin-top:0px;color: #008080;
-font-family: Arial;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;}
-.form-holder .form-group.password-wrap input[type='password'],.form-holder .form-group.password-wrap label{padding-right:50px!important}
-.form-group.password-wrap{position:relative;}
-.register-thumb-inner{position:relative;
-display:block; width: 100%; background: linear-gradient(180deg, rgba(36, 60, 69, 0.00) 0%, #243C45 100%), url('https://openlearningcollege.ac/wp-content/uploads/2023/12/Rectangle-4036.png'), lightgray -620.885px -4.875px / 223.85% 115.474% no-repeat;height:100%;background-size: cover; background-position:center center; min-height:600px}
-.thumb-info{ position:absolute; left:0;bottom:10px; width:90%; padding:20px;z-index:20;}
-.thumb-info h2{color: #ffffff;
-font-family: Arial;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-	line-height: 36px}
-.thumb-info p{width:100%;color:#CCE6E6;
-font-family: Arial;
-font-size: 16px;
-font-style: normal;
-font-weight: 400; margin-top:15px;}
-.top-review-wrap{display:inline-block; margin-top:32px;}
-
-
-/* Registration Page Style */
-.page-id-7 .col-lg-6.m-auto{
-	width:80%;     
-	margin: 0 auto !important;
-    padding: 0 !important;
-}
-.register-thumb-wrap {
-  width: 50%;
-}
-#tutor-registration-wrap{max-width:1024px;box-shadow:none}
-#tutor-registration-form {padding:30px;}
-.tutor-option-field textarea, .tutor-option-field input[type=text], .tutor-option-field input[type=number], .tutor-option-field input[type="pas.tutor-dashboard-content-innersword"], .tutor-form-group textarea, .tutor-form-group input[type=text], .tutor-form-group input[type=number], .tutor-form-group input[type=password]{text-indent:0;}
-.tutor-form-group{margin-bottom:16px}
-.tutor-form-group label{padding-left:24px;color: #7C8A8F;}
-.page-id-7 .register-thumb-inner,.page-id-8 .register-thumb-inner{background: linear-gradient(180deg, rgba(36, 60, 69, 0.00) 0%, #243C45 100%), url('https://openlearningcollege.ac/wp-content/uploads/2023/12/sign-up-thumb.png'), lightgray -359.17px -87px / 211.607% 109.158% no-repeat;height:100%;background-size: cover; background-position:center center}
-.page-id-7 .rbt-breadcrumb-default,.page-id-8 .rbt-breadcrumb-default{display:none !important}
-
-
-/* Instructor Registration Page */
-
-.tutor-mb-24{position:relative;}
-.page-id-8 .register-thumb-inner{background: linear-gradient(180deg, rgba(36, 60, 69, 0.00) 0%, #243C45 100%), url('https://openlearningcollege.ac/wp-content/uploads/2023/12/Rectangle-4036-2.png'), lightgray 50% / cover no-repeat;
-height:100%;background-size: cover; background-position:center center}
-
-
-/* Search Result Page Style */
-
-.search-results .blog-area .col-lg-8{width:100% !important;}
-.search-results .blog-area .col-lg-4{display:none!important; }
-.search-results .blog-area{padding-bottom:50px;}
-.search-result-content{    grid-template-columns: repeat(4, 1fr) !important;;
-    grid-gap: 32px;
-    grid-template-rows: min-content;
-    display: grid; margin-top:30px; padding-bottom:50px}
-.blog--post--item.text-center{border-radius: 16px!important;
-    border: 1px solid var(--primary-10, #E6F3F3)!important;
-    background: var(--white, #FFF)!important;
-    overflow: hidden;
-    box-shadow: none!important;
-    padding: 0!important;
-    transition: 0.3s; position:relative}
-.search-result-content .blog-post-thumb a img{width:100% !important; height:100%!important;}
-.search-result-content .blog-post-content p.post-excerpt{display:none}
-.search-result-content .blog-post-content{padding:20px 10px}
-.search-results .blog-area .search-result-count{padding-bottom:20px}
-.search-results .blog-area  ul.page-numbers{list-style:none;}
-
-
-/* Password Page Style */
-
-.form-container{margin: 0 auto; max-width:940px; padding:0 20px; clear:both; }
-.page-id-6 .tutor-forgot-password-form{padding-right:40px !important}
-.page-id-6 .form-wrapper .tutor-form-group label{padding-left:0px}
-.form-wrapper{
-	border: 1px solid #008080;
-}
-.button-wrapp,.step-wrap{display:flex; justify-content:space-between; width:100% }
-.link-button{display: inline-block;
-width: 46%;
-height: 48px;
-padding: 13px 24px;
-justify-content: center;
-align-items: center;background:#F2F8F8;border-radius:32px;text-align:center}
-.step-wrap{border-radius: 32px;
-background:  #F2F8F8; height:24px; margin-bottom:40px;}
-.button-wrapp .tutor-btn{background:#008080; border-radius:32px;width: 46%;
-height: 48px;
-padding: 13px 24px;
-justify-content: center;
-align-items: center;}
-.step-button{border-radius: 32px;
-color:#7C8A8F;height:24px;line-height:24px;padding:0;
-font-family: Arial;
-font-size: 12px; display:inline-block;
-font-style: normal;
-font-weight: 700;
-letter-spacing: 0.15px;}
-.step-button.active{background:#243C45; color:white;}
-p.highlight-text{color:#7C8A8F;}
-.page-id-6 .tutor-reset-password-form{padding-right:30px!important;}
-.passwrd-row{margin-top:20px}
-.password-hints{font-size:14px}
-.submit-btn button{width:100%;background:#008080;border-radius: 32px;color:#FFFFFF; text-align:center;justify-content:center;}
-.page-id-6 .register-thumb-inner.confirm-paswrd{background: linear-gradient(180deg, rgba(36, 60, 69, 0.00) 0%, #243C45 100%), url('https://openlearningcollege.ac/wp-content/uploads/2023/12/password-banner.png'), lightgray 50% / cover no-repeat;
-height:100%;background-size: cover; background-position:center center}
-
-.StepAction .step-wrap dfn:first-child{background:transparent;color:#7C8A8F}
-.StepAction .step-wrap dfn:nth-child(2){background: #243C45;
-    color: white;}
-.what-do-you-get-main-wrap a{font-family: Arial;
-font-size: 16px;
-font-weight: 700;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;color:
-#008080; margin-top:15px; text-decoration:underline;}
-.what-do-you-get-wraped ul li{font-size:0.875em;line-height: 1.25em;}
-.tutor-course-details-page button.enroll-now {
-	width: 100%; 
-    max-width: 220px;
-    margin: 20px auto 0;
-}
-
-.tutor-course-code{width:100%; text-align:center; padding-bottom:2px;
-color: #fff;
-	margin-top: 20px;
-}
-
-.tutor-course-sidebar-card-pricing.tutor-d-flex.tutor-align-end.tutor-justify-between{padding:0;}
-.course-prospectus-box{padding:32px 25px;align-items:center;}
-.course-prospectus-box a{padding:10px 13px; font-size:12px; border-radius:unset;}
-.course-prospectus-box a span svg path{stroke:white}
-.course-prospectus-box a span{vertical-align:middle; padding-left:2px;}
-
-
-
-.rbt-card.variation-01.rbt-hover .rbt-card-body .rbt-meta {
-   
-    display: flex;
-    align-items: center;
-	justify-content: space-between;}
-
-.rbt-card.variation-01.rbt-hover .rbt-meta li{display:flex;align-items:center}
-.rbt-card.variation-01.rbt-hover .rbt-meta li svg{margin-right:8px}
-
-
-
-
-.error404 .blog-area{padding:20px 0}
-.error404 .blog-area .col-md-6{width:100%; text-align:center; }
-.error404 .blog-area .col-md-6 h1{font-weight:bold}
-.error404 .blog-area .col-md-6 .right{margin-top:20px;}
-.error404 .blog-area .col-md-6 .right a.btn{font-weight:bold;color:#008080}
-
-
-.tutor-modal.tutor-login-modal #tutor-login-form{width:100%;}
-
-
-
-
-/* Button hover effect */
-
-.page-id-7 .rbt-btn.hover-icon-reverse .btn-icon, .page-id-33829 .rbt-btn.hover-icon-reverse .btn-icon, .page-id-6 .rbt-btn.hover-icon-reverse .btn-icon, .page-id-8 .rbt-btn.hover-icon-reverse .btn-icon{
-	display:none;
-}
-.page-id-7 .rbt-btn.hover-icon-reverse .btn-text, .page-id-33829 .rbt-btn.hover-icon-reverse .btn-text, .page-id-6 .rbt-btn.hover-icon-reverse .btn-text, .page-id-8 .rbt-btn.hover-icon-reverse .btn-text{
-	margin-inline-start: 0!important;
-}
-.page-id-7 .rbt-btn:hover.hover-icon-reverse .btn-text, .page-id-33829 .rbt-btn:hover.hover-icon-reverse .btn-text, .page-id-6 .rbt-btn:hover.hover-icon-reverse .btn-text, .page-id-8 .rbt-btn:hover.hover-icon-reverse .btn-text{
-	    transform: unset!important;
-}
-.page-id-7 .rbt-btn.btn-gradient, .page-id-33829 .rbt-btn.btn-gradient, .page-id-6 .rbt-btn.btn-gradient, .page-id-8 .rbt-btn.btn-gradient{
-	border:1px solid #008080;
-}
-.page-id-7 .rbt-btn.btn-gradient:hover, .page-id-33829 .rbt-btn.btn-gradient:hover, .page-id-6 .rbt-btn.btn-gradient:hover, .page-id-8 .rbt-btn.btn-gradient:hover{
-	border:1px solid #008080 !important;
-	color:#008080 !important;
-	background-color:transparent !important;
-}
-
-.page-id-33829 input[type=email]{
-	background: #ffffff !important;
-}
-.student-page-login-wrap-inner .elementor-shortcode{
-	padding-right: 20px;
-}
-
-.rbt-card.variation-01.rbt-hover > .rbt-card-img .flex-postion-items{
-	    top: auto;
-    bottom: 0;
-}
-
-
-
-
-
-/* The container */
-.tutor-option {
-  display: block;
-  position: relative;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* Hide the browser's default radio button */
-.tutor-option input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-
-/* Create a custom radio button */
-.tutor-option-selector .checkmark {
-  position: absolute;
-  top: 10px;
-  left: 15px;
-  height: 14px;
-  width: 14px;
-  background-color: #eee;
-  border-radius: 50%;
-}
-
-/* On mouse-over, add a grey background color */
-.tutor-option:hover input ~ .tutor-option-selector .checkmark {
-  background-color: #ccc;
-}
-
-/* When the radio button is checked, add a blue background */
-.tutor-option input:checked ~ .tutor-option-selector .checkmark {
-  background-color: #008080;
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.tutor-option-selector .checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the indicator (dot/circle) when checked */
-.tutor-option input:checked ~ .tutor-option-selector .checkmark:after {
-  display: block;
-}
-
-/* Style the indicator (dot/circle) */
-.tutor-option .tutor-option-selector .checkmark:after {
- 	top: 3px;
-	left: 3px;
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: white;
-}
-
-
-.tutor-course-sidebar-card-pricing .woocommerce-Price-amount.amount, .tutor-course-sidebar-card-pricing .rbt-price-flex span, .tutor-course-sidebar-card-pricing .rbt-price-flex i{
-	color:#fff;
-}
-
-.rbt-card-desc{
-	font-size: 15px;
-  line-height: 20px;
-}
-#rbt-myTabContent div.col-12{
-	margin-top:20px;
-}
-.rbt-related-course-area .course-card-2{
-	height:92px;
-}
-.rbt-related-course-area .course-thumbnail{
-	height:90px;
-}
-.rbt-related-course-area .course-rating svg{
-	height:14px !important;
-}
-.rbt-related-course-area ins span.woocommerce-Price-amount{
-	background:transparent !important;
-}
-.rbt-related-course-area ins{
-	background:transparent !important;
-	color: #003300!important;
-	font-size: 20px;
-}
-.rbt-related-course-area .course-title-info{
-	width:430px;
-}
-
-.what-do-you-get-main-wrap a{
-	margin-bottom: 10px;
-  display: block;
-	text-decoration:none;
-}
-.what-do-you-get-wraped ul{
-	list-style:none;
-}
-
-.single-courses .rbt-btn.btn-md, .single-courses button{
-	width: 100% !important;
-    max-width: 100%;
-}
-#olc_checkout_continue{
-	width: 100% !important; 
-	padding: 10px !important; 
-}
-
-.rbt-breadcrumb-style-3 .rbt-meta li{
-	display:inline-flex;
-  align-items: center;
-  gap: 5px;
-}
-
-#studypack-paymonth-discount-saving-info-item, #studyonline-paymonth-discount-saving-info-item, #studypack-payinfullmonth-discount-saving-info-item{
-	display:none;
-}
-.rbt-card-bottom a{
-	border: 1px solid #008080;;
-}
-.rbt-card-bottom a:hover{
-		color: #008080 !important;
-    background-color: #00808000 !important;
-    border-color: #008080 !important;
-}
-
-.rbt-card.variation-01.rbt-hover .rbt-price .off-price{
-	font-size: 13px!important;
-}
-.rbt-card.variation-01.rbt-hover .rbt-price .current-price{
-	font-size: 18px!important;
-}
-button.premium-modal-trigger-btn span{
-	width:100%
-}
-.cky-notice-group button.cky-btn{
-	width: auto !important;
-}
-
-.search-no-results .search-result-content{
-	    text-align: center;
-    display: block;
-}
-.search-no-results .page-header, .search-no-results .page-content{
-	text-align: center;
-    display: block;
-    width: 100%;
-}
-
-.rbt-tutor-information-right .tutor-btn:hover{
-    background: #117d5d00!important;}
-
-a#tutor-become-instructor-button {
-	max-width: 100% !important;
-}
-
-.customer-reviews ul.tutor-course-details-widget-list li{
-	  display: block !important;
-    width: 100%;
-}
-.customer-reviews .review-parent-item{
-	  display: flex;
-		align-items: center;
-    width: 100%;
-		margin-bottom: 10px;
-}
-.customer-reviews .review-parent-item h4{
-	display: inline-block;
-  margin-right: 20px;
-	margin-bottom:0;
-	font-size: 20px;
-}
-
-
-.tutor-accordion-item-header:before, .tutor-accordion-item-header:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 20px;
-    width: 16px;
-    height: 3px;
-    background-color: #ffffff;
-    transition: 0.4s ease;
-}
-.tutor-accordion-item-header:after {
-    transform: translateY(-50%) rotate(-90deg);
-}
-
-.tutor-accordion-item-header.is-active:after {
-    transform: translateY(-50%) rotate(0);
-}
-.tutor-accordion-item-header .fa.fa-plus{
-	display:none;
-}
-.courses-tab-wrap{
-	display:flex;
-	flex-flow:row wrap;
-}
-.courses-tab-wrap .common-wrap{
-	max-width: 1480px; margin: 0 auto; padding: 0 20px; clear: both; 
-}
-.courses-tab-wrap .tab-item{
-    display: none;
-}
-.courses-tab-wrap .tab-item:first-child {
-    display: block;
-}
-.courses-tab-wrap .tab-title-wrap{
-	list-style: none;
-	display: flex;
-	flex-flow:row wrap;
-	justify-content: center;
-	gap: 50px;
-	margin-bottom:30px;
-}
-.courses-tab-wrap .tab-title-wrap .tab-active {
-    background: #008080!important;
-    color: #FFF!important;
-}
-.courses-tab-wrap .tab-title-wrap li{
-		padding:12px 24px;
-	border-radius:32px;
-	background: transparent;
-
-	font-weight:700;
-}
-.courses-tab-wrap .tab-title-wrap .tab-active a{
-	  color: #fff;
-}
-.courses-tab-wrap .tab-title-wrap a{
-	color:#7C8A8F;
-}
-.courses-tab-wrap .tab-title-wrap li:hover{
-	background: #008080!important;
-    color: #FFF!important;
-}
-.courses-tab-wrap .tab-title-wrap li:hover a{
-	color:#fff !important;
-}
-.courses-tab-wrap .common-wrap{
-	width:100%;
-}
-.tab-item-wrap {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    gap: 20px;
-}
-.courses-tab-wrap .tab-item:first-child{
-	width:100%;
-	display:flex;
-	flex-flow:row wrap;
-	justify-content:space-between;
-	gap:20px;
-}
-.article-wrap.flex.animatedView {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-	gap:20px;
-}
-.courses-tab-wrap .rbt-card.variation-01.rbt-hover{
-	width:17%;
-}
-div#trending {
-    width: 100%;
-}
-.tutor-single-course-sidebar .elementor-message.elementor-message-success {
-    position: absolute;
-    bottom: -29px;
-    font-size: 14px;
-}
-.searchandfilter li{
-	padding-right: unset !important;
-}
-#premium-modal-3350190 .searchandfilter input[type=text] {
-    color: #243c45 !important;
-}
-.home .searchandfilter input[type=text] {
-    color: #fff !important;
-}
-.searchandfilter input[type="submit"]{
-	margin-right:0px !important;
-}
-
-.tutor-widget-course-filter a.rbt-btn.btn-border.radius-round-10.btn-sm.refresh-btn {
-    font-size: 14px !important;
-    padding: 0 10px !important;
-}
-.tutor-widget-content {
-    display: flex;
-    justify-content: center;
-}
-.tutor-widget-course-filter .rbt-btn i {
-    padding-left: 0px !important;
-    top: 0px !important;
-    font-size: 12px !important;
-    margin-right: 2px !important;
-}
-
-.rbt-card.variation-01.rbt-hover .rbt-price .current-price {
-    font-size: 13px!important;
-}
-
-.tutor-review-list-item .tutor-row{
-	padding: 10px;
-}
-.tutor-review-list-item .tutor-row .tutor-review-comment{
-	text-align: justify;
-	color:#1a1b1e;
-}
-.course-card-2{
-	border: 1px solid #1a1b1e;
-}
-.rbt-related-course-area .course-title-info .course-title{
-	font-size:16px;
-}
-.single-lesson hr{
-	    margin: 10px 0 !important;
-}
-.single-lesson .tutor-tab h3{
-	    margin-bottom: 10px;
-}
-.search-no-results .searchandfilter input[type=text]{
-	height: 36px;
-    color: #243c45 !important;
-}
-.tutor-accordion-item-body ul li span{
-	color: #243C45!important;
-}
-.tutor-course-single-sidebar-wrapper .tutor-accordion-item-header .tutor-course-topic-summary{
-	color: #ffffff !important;
-}
-
-.tutor-enrol-course-form .rbt-btn:hover{
-	    background-color: white !important;
-}
-
-.tutor-container .rbt-elements-area.bg-color-white.rbt-section-gap .col-lg-6.m-auto {
-    width: 100% !important;
-}
-.olc-app-title{
-  margin-top: 40px;
-}
-
-/* Mobile Responsive */
-
-@media only screen and (min-width: 280px) and (max-width: 767px){
-
-.page-id-6 .col-lg-6.m-auto, .page-id-7 .col-lg-6.m-auto,.thumb-info,#tutor-registration-form,.register-thumb-wrap,.page-id-8 .col-lg-8.m-auto{width:100%}
-.form-wrapper{display:block;}
-	#tutor-login-form,#tutor-registration-form{width:100%; padding:20px;}
-.thumb-info h2,.form-heading h2 {font-size:24px}
-	.register-thumb-wrap{margin-top:30px}
-	.register-thumb-inner{min-height:430px}
-.search-result-content{    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))!important;;
-    grid-gap: 32px;
-    grid-template-rows: min-content;
-    grid-template-columns: repeat(1, 1fr) !important;;}
-	
-	.page-id-6 .tutor-forgot-password-form{width:100%; padding-right:20px}
-	
-	.tutor-course-details-page main{
-		order: 2;
-	}
-	.tutor-course-details-page aside{
-		order: 1;
-	}
-	.tutor-course-details-page .rbt-section-gapBottom {
-    padding-bottom: 0;
-}
-.archive a.tutor-iconic-btn{
-		display:none
-	}	
-	
-	.courses-tab-wrap .rbt-card.variation-01.rbt-hover {
-    width: 100% !important;
-}
-	.elementor-20630 .elementor-element.elementor-element-b476075{
-		    width: 100% !important;
-	}
-	.searchandfilter ul li:first-child{
-		width: 100%;
-	}
-
-}
-
-@media only screen and (max-width: 992px) {
-	
-		.student-page-item .elementor-widget-wrap {
-    flex-flow: row wrap !important;
-}
-	.student-page-join-wrap{
-		width:100%;
-		    padding: 10px;
-	}
-	
-	.courses-tab-wrap .tab-title-wrap{
-	gap: 20px;
-}
-	.courses-tab-wrap .rbt-card.variation-01.rbt-hover {
-    width: 42%;
-}
-	
-}
-
-
-/* Tablet */
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-	
-.rbt-btn-custom, .tutor-btn.added_to_cart{
-	width:100% !important;
-	text-align:center;}
-.page-id-6 .col-lg-6.m-auto, .page-id-7 .col-lg-6.m-auto,.thumb-info,#tutor-registration-form,.register-thumb-wrap,.page-id-8 .col-lg-8.m-auto{width:100%}
-	.form-heading h2{font-size:26px;}
-	
-	.courses-tab-wrap .rbt-card.variation-01.rbt-hover {
-    width: 25%;
-}
-	
-		p.rbt-card-desc{
-			padding-bottom:0;
-		overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
-	}
-	.rbt-card.variation-01.rbt-hover .rbt-meta li{
-		    font-size: 12px;
-	}
-	.rbt-card.variation-01.rbt-hover .rbt-card-body .rbt-card-title{
-		padding-bottom:0;
-		overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
-	}
-		.rbt-card.variation-01.rbt-hover .rbt-card-img a{
-		font-size: 11px;
-	}
-	.tutor-widget-course-filter a.rbt-btn.btn-border.radius-round-10.btn-sm.refresh-btn {
-    font-size: 12px !important;
-}
-	
-
-}
-
-
-
-
-/* Laptop Screen */
-
-@media only screen and (min-width: 992px) and (max-width: 1366px) {
-.rbt-card.variation-01.rbt-hover .rbt-price .off-price{
-	font-size: 11px!important;
-}
-.rbt-card.variation-01.rbt-hover .rbt-price .current-price, .rbt-btn-custom{
-	font-size: 11px!important;
-}	
-.rbt-card.variation-01.rbt-hover .rbt-card-body {
-    padding: 16px 10px !important;
-}
-.rbt-btn-custom{
-    width: auto !important;
-}
-}	
-	
-@media only screen and (min-width: 1030px) and (max-width: 1366px) {
-	
-.tutor-options{gap:12px}
-.tutor-option-selector{padding-left:40px!important;text-align:left !important;}
-
-.course-prospectus-box .add-thumbnail{width:32%}
-.elementor-15775 .elementor-element.elementor-element-62ee725b{padding:32px 25px!important}
-.elementor-field-type-phone_number_prefix_selector_form_field{width:29%!important}
-.select2-container--below.select2-container--focus{width:100%!important}
-.elementor-field-type-tel.elementor-field-group{width:71%!important}
-.select2.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-left:0px; left:auto; right:10px}
-	
-	p.rbt-card-desc{
-		padding-bottom:0;
-		overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
-	}
-	.rbt-card.variation-01.rbt-hover .rbt-meta li{
-		    font-size: 12px;
-	}
-	.rbt-card.variation-01.rbt-hover .rbt-card-body .rbt-card-title{
-		padding-bottom:0;
-		overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
-	}
-	.rbt-card.variation-01.rbt-hover .rbt-card-img a{
-		font-size: 11px;
-	}
-	
-		.tutor-widget-course-filter a.rbt-btn.btn-border.radius-round-10.btn-sm.refresh-btn {
-    font-size: 12px !important;
-}
-}
-.rbt-radius{
-	height: auto;
-}
-
-/* Search Box */
-.search-results-content {
-  background: #fff;
-  padding: 15px;
-  max-height: 10em;
-    overflow-x: hidden;
-    overflow-y: auto;
-    position: relative;
-    z-index: 999;
-}
-#search-results{
-   position: absolute;
-    right: 0;
-    top: 100%;
-    -webkit-box-shadow: 0 14px 54px rgba(0, 0, 0, .03);
-    box-shadow: 0 14px 54px rgba(0, 0, 0, .03);
-    left: 0;
-}
-.searchform {
-  border: 1px solid #fff;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  width: 450px;
-  border-color: #ABABAB !important;
-}
-.searchform input.search-input, .searchform input.search-input::placeholder{
-  color: #000;
-}
-.searchform input.search-input  {
-  font-size: 16px;
-  font-weight: 400;
-  height: 34px;
-  line-height: 28px;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-10);
-  padding: 0 15px;
-  width: 100%;
-  border: none;
-  background: transparent;
-}
-.banner-search .searchform input.search-input{
-  color: #fff;
-}
-.banner-search .searchform input.search-input::placeholder{
-  color: #BBBFC0;
-}
-.searchform input[type="submit"] {
-  background-image: url(https://openlearningcollege.ac/wp-content/uploads/2024/01/icons8-search.svg);
-  background-size: 20px 20px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 60px;
-  height: 34px !important;
-  cursor: pointer;
-  border: none;
-  color: #ffffff;
-  font-size: 0;
-  margin: 0 !important;
-  border-radius: 0px 30px 30px 0px;
-}
-.search-model .searchform {
-  width: 100%;
-  border: none;
-  border-bottom: 3px solid #fff;
-  border-color: #fff !important;
-  border-radius: 0;
-  padding: 0 15px;
-}
-.search-model .searchform input.search-input {
-  background: transparent;
-  border: 0;
-  border-radius: 0;
-  color: #fff;
-  font-size: 5vw;
-  line-height: 1;
-  height: auto;
-  padding: 0;;
-  font-size: 5vw;
-  line-height: 1;
-}
-.search-model .searchform input[type="submit"]{
-  display: none;
-}
-#search-results .title img {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-}
-.search-model .searchform input.search-input::placeholder {
-  color: #b4b4b4;
-  font-size: 5vw;
-}
-#search-results .title {
-  font-size: 14px;
-  color: #000;
-  background-color: #fff;
-  line-height: 25px;
-  display: flex;
-  margin-bottom: 5px;
-  align-items: center;
-  white-space: break-spaces;
-}
-#search-results .title:hover{
-  background-color: var(--primary-3, #e5f5f5)!important;
-}
-.search-results mark{
-  background: none;
-  color: var(--color-pink);
-  font-weight: 500;
-}
-.search .rbt-card-title a mark{
-  background: none;
-  color: var(--color-pink);
-  font-weight: 700;
-}
-/* Hide the clear (X) icon in search input */
-input[type="search"]::-webkit-search-cancel-button {
-  -webkit-appearance: none;
-}
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-.olc-btn-primary{
-  text-transform: uppercase;
-  font-weight: 600;
-  border:1px solid var(--color-pink);
-}
-.olc-btn-primary:hover {
-  color: var(--color-pink) !important;
-  background: transparent;
-  border:1px solid var(--color-pink);
-
-}
-@media only screen and (max-width: 991px) {
-  .searchform {
-   width: 435px;
-  }
-  .olc-breadcrumb-desc{
-    width: 50%;
-  }
-} 
-@media only screen and (max-width: 575px) {
-  .searchform {
-   width: 100%;
-  }
-  .olc-breadcrumb-desc{
-    width: 100%;
-  }
-}
-@media(min-width: 1400px) {
-  .elementor-section.elementor-section-boxed > .elementor-container {
-      max-width: 82.5em !important;
-  }
 }
